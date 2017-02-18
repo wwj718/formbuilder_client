@@ -10,7 +10,7 @@ you can use the client to [get your data back](https://github.com/Kinto/formbuil
 
 ```python
 from formbuilder_client import Client
-client = Client(kintoUrl="http://localhost:8888/v1/",userToken="xxx",adminToken="xxx") 
+client = Client(kintoUrl="http://localhost:8888/v1/",adminToken="xxx") 
 response = client.get_response()
 data = response.json()
 print(data)
